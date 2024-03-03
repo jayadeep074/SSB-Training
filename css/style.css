@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    background-color: #D6D2CE;
+    width: 100%;
+}
+
+.rg a{
+    background-color: #47078c;
+    border-radius: 50px;
+}
+
+.rg a:hover{
+    background-color: #f54707;
+}
+
+
+.home{
+    background-image: url(../images/WhatsApp\ Image\ 2023-06-16\ at\ 17.13.33.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.home img{
+    width: 20%;
+}
+
+.home h1{
+    font-size: 60px;
+    color: #f54707;
+}
+
+.home p{
+    color: #ffffff;
+    letter-spacing: 4px;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+}
+.about h1{
+    font-size: 40px;
+    color: #f54707;
+    padding-bottom: 20px;
+}
+
+
+.about p{
+    color: grey;
+    font-weight: 500;
+    width: 80%;
+}
+
+
+.about img{
+    width: 100%;
+    border-radius: 5%;
+    box-shadow:  10px 15px 8px 2px #858482;
+    filter: brightness(80%);
+}
+
+.artist h1{
+    font-size: 40px;
+    color: #f54707;
+}
+
+.artist img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.isl{
+    background-color: #b8530b;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.isl iframe{
+    width: 100%;
+    border-radius: 25px;
+}
+
+
+.staff .col-sm img{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+
+.staff .col-sm h3{
+    padding-top: 20px;
+}
+
+.staff .col-sm p{
+    color: gray;
+}
+
+.staff .col-sm i{
+    color: #f54707;
+    padding-right: 10px;
+}
+
+.contact{
+    background-color: #6b695e;
+    padding: 50px 0px;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+}
+
+.contact iframe{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.contact textarea{
+    resize: none;
+}
+
+.contact button{
+    background: #47078c;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.contact button:hover{
+    background-color: #f54707;
+    color: black;
+}
+
+
+.footer ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: #47078c;
+}
+
+.footer ul i, .footer .col i{
+    padding-right: 10px;
+}
+
+.footer1{
+    background-color: #47078c;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 990px) {
+    .rg a{
+    font-size: 20px;
+    font-weight: 500;
+    }
+}
